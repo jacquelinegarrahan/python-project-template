@@ -1,13 +1,11 @@
 # {{ cookiecutter.repo_name }}
 
-This repository packages the `{{ cookiecutter.model_class }}` in `{{ cookiecutter.project_slug }}/model.py ` for execution with [Prefect](https://docs.prefect.io/) using the flow described in `{{ cookiecutter.project_slug }}/flow/flow.py`. 
-
 
 ## Installation
 
 This package may be installed using pip:
 ```
-pip install git+{{ cookiecutter.github_url }}
+pip install git+{{ cookiecutter.github_url }}.git
 ```
 
 
