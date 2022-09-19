@@ -31,7 +31,7 @@ pytest .
 ```
 
 ### Note
-This README was automatically generated using the template defined in https://github.com/slaclab/lume-services/lume_services/modeling/templating with the following configuration:
+This README was automatically generated using the template defined in https://github.com/jacquelinegarrahan/python-project-template with the following configuration:
 
 ```json
 {
