@@ -11,17 +11,13 @@ pip install git+{{ cookiecutter.github_url }}.git
 
 ## Dev
 
-Create an environment using the environment.yml packaged with the repository:
+Create an environment using the dev-environment.yml packaged with the repository:
 ```
-conda env create -f environment.yml
+conda env create -f dev-environment.yml
 ```
 Activate your environment:
 ```
-conda activate {{ cookiecutter.project_slug }}
-```
-Install dev requirements:
-```
-conda install --file dev-requirements.txt
+conda activate {{ cookiecutter.repo_name }}-dev
 ```
 
 Install editable package:
