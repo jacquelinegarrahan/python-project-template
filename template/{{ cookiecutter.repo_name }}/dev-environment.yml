@@ -1,0 +1,17 @@
+name: {{ cookiecutter.repo_name }}-dev
+channels:
+  - conda-forge
+dependencies:
+  - click
+  - pydantic # until lume-services registered with conda
+
+  # dev
+  - pre-commit
+  - pytest
+  - pytest-cov
+
+  # docs
+  - mkdocs
+  - mkdocstrings
+  - mkdocstrings-python
+  - mkdocs-material

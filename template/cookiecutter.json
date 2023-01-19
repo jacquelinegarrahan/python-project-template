@@ -1,0 +1,9 @@
+{
+    "author": null,
+    "email": null,
+    "github_username": null,
+    "github_url": null,
+    "project_name": null, 
+    "repo_name": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}", 
+    "package": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}"
+}

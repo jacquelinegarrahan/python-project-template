@@ -1,0 +1,6 @@
+name: {{ cookiecutter.repo_name }}
+channels:
+  - conda-forge
+dependencies:
+  - click
+  - pydantic
