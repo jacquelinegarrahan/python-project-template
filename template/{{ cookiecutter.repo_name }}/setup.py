@@ -19,12 +19,5 @@ setup(
     url="{{ cookiecutter.github_url }}",
     include_package_data=True,
     python_requires=">=3.8",
-    entry_points={
-        "orchestration": [
-            "{{ cookiecutter.package }}.model=\
-                {{ cookiecutter.package }}.model:{{ cookiecutter.model_class }}",
-            "{{ cookiecutter.package }}.flow=\
-                {{ cookiecutter.package }}.flow:flow",
-        ]
-    },
+    #entry_points=
 )
